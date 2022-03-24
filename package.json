@@ -1,0 +1,16 @@
+{
+  "name": "global-chat",
+  "version": "1.0.0",
+  "description": "a global chat app",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "serve frontend/",
+    "backend": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "toadless",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
